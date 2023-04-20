@@ -654,7 +654,6 @@ function startDownload(url) {
 
 function getScript(choice) {
     let url_prefix = [
-        'https://raw.iqiq.io/sntyuxi/info/main/',
         'https://v.sec-an-cf.top/gh/raw/sec-an/Better-Auto-XXQG/main/',
         'https://gh-proxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/',
         "https://ghproxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/",
