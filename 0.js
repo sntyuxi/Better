@@ -184,7 +184,8 @@ fInfo("设置屏幕常亮");
 device.keepScreenOn(3600 * 1000);
 // 下载题库
 fInfo("检测题库更新");
-const update_info = get_tiku_by_http("https://gitcode.net/m0_64980826/songge_tiku/-/raw/master/info.json");
+const update_info = get_tiku_by_http("http://101.42.221.202:1880/static/info.json");
+//const update_info = get_tiku_by_http("https://gitcode.net/m0_64980826/songge_tiku/-/raw/master/info.json");
 fInfo("正在加载对战题库......请稍等\n题库版本:" + update_info["tiku_version"]);
 fInfo("如果不动就是正在下载，多等会");
 var tiku = [];
